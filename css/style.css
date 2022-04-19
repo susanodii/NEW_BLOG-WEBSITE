@@ -209,6 +209,11 @@ svg.bi.bi-arrow-right-circle {
 /* POST PAGE */
 
 /* laptop or desktop */
+
+.post-wrapper{
+    background: #222222;
+}
+
 @media (min-width: 1400px) {
   .post-wrapper {
     max-width: 1320px;
