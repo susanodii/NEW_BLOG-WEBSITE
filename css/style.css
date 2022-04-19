@@ -98,11 +98,21 @@
     width: 80vw;
     margin: auto;
     text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    gap: 100px;
 
 }
+ 
+.general{
+    display: flex;
+    flex-direction: column; 
+} 
 
 .individual-card-container{
     display: flex;
+
     justify-content: flex-start;
     align-items: flex-start;
     width: 50vw;
@@ -144,7 +154,7 @@
     display: flex;
     flex-direction: column;
     width:30vw ;
-    gap: 10px;
+    gap: 0px;
     line-height: 1; 
      border: 5px solid purple; 
 }
@@ -186,41 +196,101 @@ display: flex;
 flex-direction: column;
 position:relative
 }
-hr{
+.horizontal-line1{
     
-    border: 2px solid whitesmoke;
+    border: 1px solid whitesmoke;
     width: 250px;
-    height: 5px;
+    height: 3px;
     
 }
 
-.arrow-right{
+.arrow-rightHight{
     display: flex;
 
 }
-svg.bi.bi-arrow-right-circle{
-    border: 3px solid white;
-    border-radius: 50%;
-    color: #007aea;
+
+ .arrow{
+     border: 5px solid whitesmoke;
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     font-size: 20px;
+     font-weight: 600;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #007aea;
+ }
+ a.arrow{
+    text-decoration:none;
+    width: 80px;
+     height: 80px;
+} 
+  
+a.arrow:hover{
+  
+    background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
+   color:white ;
 }
 
-.bi.bi-arrow-right-circle{
-    color: #007aea;
+/* CATEGORY SECTION */
+
+.horizontal-line2{
+    border: 5px solid linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%)  ;
+    /* position: absolute; */
+    margin-top: 5px;
+    /* margin-left:8px ; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 18vw;
+    height: 15px;
+    border-radius: 15px;
+    background:linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
 }
-/* a.arrow{
-    background: #4679BD;
-    text-decoration:none; /* Remove that ugly underlining */
-    /* border-radius: 50%;
-    display: block;
-    height: 80px;
-    width: 80px;
+.category-container{
+    border: 5px solid whitesmoke ;
+    width: 20vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.cat-heading{
+
+    border: 5px solid whitesmoke;
+    height: 70px;
+    width: 19vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px; 
+}
+
+.home-garden-wrapper{
+    border: 5px solid whitesmoke;
+    height: 70px;
+    width: 19vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+}
+
+.home-and-garden{
+    display: flex;
+    gap: 40px;
+}
+.icon-img1{
+    width: 70px;
+    height: 60px;
+}
+a.homeGarden-writeUP{
+    text-decoration:none;
     
-} */
-/* a.arrow::after {
-    content:"\2191";   /* The code for the arrow : see the reference */
-    /* display: block;
-    color: white;
-    font-weight: bold;
-    /* font-size: 60px; /* Adjust for your needs */
-    /* text-align: center;
-}  */
+} 
