@@ -571,6 +571,11 @@ a {
   .post-content {
     padding-right: 0rem;
   }
+
+  /* post author card */
+.post-author-card{
+  flex-direction: column;
+}
 }
 
 /* mobile */
@@ -587,10 +592,7 @@ a {
     gap: 1rem;
   }
 
-  /* .post-breadcrumb-list li:last-child {
-    margin-left: 0;
-    
-  } */
+  
 
   .post-wrapper {
     grid-template-areas:
@@ -602,6 +604,11 @@ a {
   .post-content {
     padding-right: 0rem;
   }
+
+  /* post author card */
+.post-author-card{
+  flex-direction: column;
+}
 }
 
 /* END POST PAGE */
