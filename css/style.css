@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -216,6 +216,13 @@ a {
   color: var(--primary-text-color);
 }
 
+.gradient-bar {
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
+  border-radius: 10px;
+}
+
 /* POST PAGE */
 
 /* heading area */
@@ -300,11 +307,10 @@ a {
 
 /* post card */
 
-
-.postcard{
-    border-bottom: 1px solid var(--primary-border-color);
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
+.postcard {
+  border-bottom: 1px solid var(--primary-border-color);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .post-thumb {
@@ -323,24 +329,23 @@ a {
   align-items: center;
   padding: 1rem 0;
   flex-wrap: wrap;
-  
 }
 /* :not(:last-child)::after */
 
-.post-meta-item{
-    position: relative;
+.post-meta-item {
+  position: relative;
 }
 
-.post-author{
-    font-family: 'Titillium Web', sans-serif;
-    font-size:1rem;
-    cursor: pointer;
+.post-author {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 .post-meta .post-meta-item:not(:first-child) {
   margin-left: 1rem;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: .8rem;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 0.8rem;
 }
 
 .post-meta .post-meta-item:not(:last-child) {
@@ -361,25 +366,138 @@ a {
 
 /* end post card */
 
-/* post heading */
+/* post body */
 
-.post-title{
-    font-size: clamp(1.8rem, 2.5rem, 4rem);
-    font-weight: 600;
-    line-height: min(45px, 57px);
-    color: var(--post-heading-color);
+.post-title {
+  font-size: clamp(1.8rem, 2.5rem, 4rem);
+  font-weight: 600;
+  line-height: min(45px, 57px);
+  color: var(--post-heading-color);
 }
 
-.post-body{
-    margin-top:1.5rem;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 18px;
-    line-height: min(1.8rem, 2.5rem);
-    color: var(--breadcrumbs-color);
-    
+.post-body {
+  margin: 1.5rem 0;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  line-height: min(1.8rem, 2.5rem);
+  color: var(--breadcrumbs-color);
 }
 
-/* end Post heading */
+.post-quote {
+  padding: 50px;
+  margin: 3rem 0;
+  box-shadow: 0px 10px 30px rgb(61 91 125 / 15%);
+  border-radius: 15px;
+  position: relative;
+}
+
+.post-quote-mark {
+  position: absolute;
+  top: -20px;
+  left: 60px;
+}
+
+.post-quote-text {
+  font-family: "Titillium Web", sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  line-height: min(1.8rem, 2.5rem);
+  font-weight: 400;
+}
+
+.post-quote-footer {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quote-author {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--post-heading-color);
+}
+
+.quote-decor {
+  width: 100px;
+  height: 6px;
+}
+
+/* end Post body */
+
+/* post tags */
+.post-tags {
+  margin: 2rem 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--primary-border-color);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.post-tag-name {
+  font-size: min(2rem, 4rem);
+}
+
+.post-tag {
+  font-size: 14px;
+  font-family: "Titillium Web", sans-serif;
+  color: var(--breadcrumbs-color);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--primary-border-color);
+}
+
+/* end Post tags */
+
+
+/* post author card */
+.post-author-card{
+    display: flex;
+    margin: 2rem 0;
+    background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
+    border-radius: 10px;
+    border: 1px solid var(--primary-border-color);
+    /* gap: 4rem; */
+}
+
+
+.post-author-img{
+   
+    height: 200px; 
+
+    /* width: 30%; */
+}
+
+.post-author-image{
+    height: 205px;
+/* width: 100%; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.post-author-intro{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+.post-author-intro .post-tag-name, .post-author-bio{
+    color: #fff;
+}
+
+.post-author-bio{
+    font-weight: 400;
+    font-family: "Titillium Web", sans-serif;
+
+    font-size: 1.2rem;
+}
+
+/* end post author card */
 
 @media (min-width: 1400px) {
   .post-wrapper,
