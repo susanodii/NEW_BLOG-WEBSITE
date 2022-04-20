@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -14,6 +15,8 @@
   --secondary-background-color: rgb(238, 245, 254);
   --background-gradient: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
   --breadcrumbs-color: #3d5b7d;
+  --primary-border-color: #dae6f9;
+  --post-heading-color: #222222;
 }
 /* TOP NAVIGATION */
 body {
@@ -266,6 +269,7 @@ a {
 
 .crumb-item a {
   color: var(--breadcrumbs-color);
+  font-size: 1rem;
 }
 
 /* end heading area */
@@ -282,10 +286,9 @@ a {
 
 .post-content {
   grid-area: content;
-  height: 100vh;
-  background-color: #e3e0c3;
+  /* height: 100vh; */
+  /* background-color: #e3e0c3; */
   width: 100%;
-  
 }
 
 .post-side {
@@ -296,6 +299,14 @@ a {
 }
 
 /* post card */
+
+
+.postcard{
+    border-bottom: 1px solid var(--primary-border-color);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
 .post-thumb {
   background-image: url("https://unsplash.com/photos/G8NVSTtwLLI/download?ixid=MnwxMjA3fDF8MXxhbGx8MXx8fHx8fDJ8fDE2NTAzNzMyNDU&force=true&w=1920");
   background-repeat: no-repeat;
@@ -303,11 +314,72 @@ a {
   position: relative;
   background-position: center;
   width: 100%;
-  min-height: 400px;
+  min-height: 300px;
   border-radius: 15px;
 }
 
+.post-meta {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  flex-wrap: wrap;
+  
+}
+/* :not(:last-child)::after */
+
+.post-meta-item{
+    position: relative;
+}
+
+.post-author{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:1rem;
+    cursor: pointer;
+}
+
+.post-meta .post-meta-item:not(:first-child) {
+  margin-left: 1rem;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: .8rem;
+}
+
+.post-meta .post-meta-item:not(:last-child) {
+  padding-right: 1rem;
+}
+
+.post-meta .post-meta-item:not(:last-child)::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #177ef7;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
 /* end post card */
+
+/* post heading */
+
+.post-title{
+    font-size: clamp(1.8rem, 2.5rem, 4rem);
+    font-weight: 600;
+    line-height: min(45px, 57px);
+    color: var(--post-heading-color);
+}
+
+.post-body{
+    margin-top:1.5rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    line-height: min(1.8rem, 2.5rem);
+    color: var(--breadcrumbs-color);
+    
+}
+
+/* end Post heading */
 
 @media (min-width: 1400px) {
   .post-wrapper,
@@ -321,7 +393,7 @@ a {
     grid-template-areas: "content sidebar";
   }
 
-  .post-content{
+  .post-content {
     padding-right: 4rem;
   }
 }
@@ -336,7 +408,7 @@ a {
   .post-wrapper {
     grid-template-areas: "content sidebar";
   }
-  .post-content{
+  .post-content {
     padding-right: 4rem;
   }
 }
@@ -351,7 +423,7 @@ a {
   .post-wrapper {
     grid-template-areas: "content sidebar";
   }
-  .post-content{
+  .post-content {
     padding-right: 4rem;
   }
 }
@@ -376,6 +448,10 @@ a {
       "content"
       "sidebar";
     grid-template-columns: 100%;
+  }
+
+  .post-content {
+    padding-right: 0rem;
   }
 }
 
@@ -403,6 +479,10 @@ a {
       "content"
       "sidebar";
     grid-template-columns: 100%;
+  }
+
+  .post-content {
+    padding-right: 0rem;
   }
 }
 
