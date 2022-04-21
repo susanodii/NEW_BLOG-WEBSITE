@@ -94,20 +94,24 @@
 
 /* CARDS UNDER FATURED TOPICS */
 .cards-wrapper{
-    border:2px solid blue ; 
+    border:10px solid blue ; 
     width: 80vw;
     margin: auto;
     text-align: center;
     display: flex;
-    flex-direction: column; 
+    /* flex-direction: column;  */
     justify-content: space-around;
-    gap: 100px;
+    flex-wrap: wrap;
+
+    /* gap: 100px; */
 
 }
  
 .general{
     display: flex;
-    flex-direction: column; 
+     flex-direction: column;   
+    border:4px solid yellow ;
+    gap:30px
 } 
 
 .individual-card-container{
@@ -123,7 +127,7 @@
 .cards-background-img{
     border:5px solid red;
     width: 35vw;
-    height: 45vh;
+    height: 44vh;
     position: relative;
     background-image: url('https://html.themesdeveloper.net/newlog/assets/img/blog/featured-topic-1.png');
    background-repeat: no-repeat;
@@ -153,6 +157,7 @@
 .cards-main-writeUp{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width:30vw ;
     gap: 0px;
     line-height: 1; 
