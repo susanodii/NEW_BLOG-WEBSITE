@@ -85,31 +85,47 @@ body {
 }
 
 /* CARDS UNDER FATURED TOPICS */
-.cards-wrapper {
-  border: 2px solid blue;
-  width: 80vw;
-  margin: auto;
-  text-align: center;
+.cards-wrapper{
+    border:10px solid blue ; 
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    /* flex-direction: column;  */
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    /* gap: 100px; */
+
+}
+ 
+.general{
+    display: flex;
+     flex-direction: column;   
+    border:4px solid yellow ;
+    gap:30px
+} 
+
+.individual-card-container{
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw;
+    height: 50vh;
+    border:5px solid yellowgreen;
 }
 
-.individual-card-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 50vw;
-  height: 45vh;
-  border: 5px solid yellowgreen;
-}
+.cards-background-img{
+    border:5px solid red;
+    width: 35vw;
+    height: 49vh;
+    position: relative;
+    background-image: url('https://html.themesdeveloper.net/newlog/assets/img/blog/featured-topic-1.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 
-.cards-background-img {
-  border: 5px solid red;
-  width: 35vw;
-  height: 45vh;
-  position: relative;
-  background-image: url("https://html.themesdeveloper.net/newlog/assets/img/blog/featured-topic-1.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .design {
   /* border: 3px solid palegreen; */
@@ -130,13 +146,15 @@ body {
   text-transform: capitalize;
 }
 
-.cards-main-writeUp {
-  display: flex;
-  flex-direction: column;
-  width: 30vw;
-  gap: 10px;
-  line-height: 1;
-  border: 5px solid purple;
+.cards-main-writeUp{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:30vw ;
+    
+    gap: 0px;
+    line-height: 0.5; 
+     border: 5px solid purple; 
 }
 
 .news-brief {
@@ -152,11 +170,15 @@ body {
   font-weight: 400;
   font-family: "Titillium Web", sans-serif;
 }
-.author-date {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-  /* border: 10px solid whitesmoke; */
+
+
+.author-date{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-bottom: 10px;
+     /* border: 5px solid whitesmoke; */
+     width: 15vw; 
 }
 .date {
   display: flex;
@@ -208,6 +230,8 @@ svg.bi.bi-arrow-right-circle {
 /* text-align: center;
 }  */
 
+/* Utitlity classes definition */
+
 li {
   list-style: none;
 }
@@ -222,6 +246,13 @@ a {
   background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
   border-radius: 10px;
 }
+
+/* end Utility classes definition */
+
+
+
+/* ============================================================================= */
+
 
 /* POST PAGE */
 
@@ -612,3 +643,199 @@ a {
 }
 
 /* END POST PAGE */
+/* ============================================================================= */
+
+.horizontal-line1{
+    
+    border: 1px solid whitesmoke;
+    width: 250px;
+    height: 3px;
+    
+}
+
+.arrow-rightHight{
+    display: flex;
+
+}
+
+ .arrow{
+     border: 5px solid whitesmoke;
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     font-size: 20px;
+     font-weight: 600;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #007aea;
+ }
+
+ a.arrow{
+    text-decoration:none;
+    width: 80px;
+     height: 80px;
+     
+} 
+  
+a.arrow:hover{
+  
+    background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
+   color:white ;
+}
+
+/* CATEGORY SECTION */
+
+.horizontal-line2{
+    border: 5px solid linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%)  ;
+    /* position: absolute; */
+    margin-top: 5px;
+    /* margin-left:8px ; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 18vw;
+    height: 15px;
+    border-radius: 15px;
+    background:linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
+}
+.category-container{
+    border: 5px solid whitesmoke ;
+    width: 20vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.cat-heading{
+
+    border: 5px solid whitesmoke;
+    height: 70px;
+    width: 19vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px; 
+}
+
+.home-garden-wrapper{
+    border: 5px solid whitesmoke;
+    height: 70px;
+    width: 19vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+}
+
+.home-and-garden{
+    display: flex;
+    gap: 40px;
+}
+.icon-img1{
+    width: 70px;
+    height: 60px;
+}
+a.homeGarden-writeUP{
+    text-decoration:none;
+    
+} 
+
+ /* SECOND CATEGORY CONTAINER STYLE  */
+
+ .second-category-containerWrapper{
+
+    border: 1px solid whitesmoke;
+    margin-top: 25px;
+    border-radius: 15px;
+    height: 55vh;
+    width: 19vw;
+    background-image: url("https://html.themesdeveloper.net/newlog/assets/img/blog/sidebar-add-banner.png ");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 20px;
+
+
+ } 
+
+ /* .garden-home-box{
+    border: 5px solid purple;
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;} */
+
+    .wrapperBetween-mainWriteUpAnd-CircleArrow{
+        /* border: 5px solid royalblue; */
+        width: 17vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+          gap: 50px;
+          text-align: center;
+          margin-left: 20px;
+        
+    }
+    .garden-home-details{
+        /* border: 5px solid yellow;  */
+        width: 16vw;
+        display: flex;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 0;
+        
+    }
+    .garden-home-writeUp1{
+        display: flex;
+        flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+     width: 19vw;
+       gap: 20px;
+       /* border: 5px solid red; */
+        }
+        .garden-home-button{
+            border: 5px solid whitesmoke;
+            width: 70px;
+            height: 40px;
+            display: flex;
+           justify-content: center;
+           align-items: center;
+           border-radius: 15px;
+           background-color: white;
+
+        }
+
+        .arrow-home-garden{
+
+            
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            font-size: 20px;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%); ;
+        }
+
+
+a.arrow-home-garden{
+    text-decoration: none;
+}
+
+
+
