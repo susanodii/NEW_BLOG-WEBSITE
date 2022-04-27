@@ -95,7 +95,7 @@ body {
 .upper-class-section{
 
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   gap: 70px;
 
 }
@@ -420,6 +420,9 @@ svg.bi.bi-arrow-right-circle {
 .bi.bi-arrow-right-circle {
   color: #007aea;
 }
+
+/*   FURNITURE SEECTION */
+
 /* a.arrow{
     background: #4679BD;
     text-decoration:none; /* Remove that ugly underlining */
