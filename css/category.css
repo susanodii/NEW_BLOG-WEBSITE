@@ -1,5 +1,6 @@
 /* Default styling */
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@100;200;300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -224,6 +225,96 @@ a{
     color: #fff;
     font-weight: bolder;
 
+}
+.section-title{
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+.section-title h4{
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 600;
+}
+.side-image-content {
+    display: flex;
+    gap: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 400;
+    line-height: 28px;
+    color: #777;
+}
+.side-image{
+    border-radius: 10px;
+}
+.side-img-text h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 2em;
+}
+.categories-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.categories-btn{
+    padding: 0px 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: "Titillium Web", sans-serif;
+    color: #3d5b7d;
+    border: 1px solid #dae6f9;
+    margin-bottom: 10px;
+    font-weight: 400;
+    outline: none !important;
+    line-height: 28px;
+}
+
+.home-garden-wrapper{
+    background-image: url('https://html.themesdeveloper.net/newlog/assets/img/blog/sidebar-add-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 375px;
+    position: relative;
+    background-color: pink;
+    margin-top: 20px;
+}
+.discount-20{
+    display: inline-block;
+    background-color: white;
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 10px;
+}
+.home-garden-card{
+    padding: 50px 30px;
+}
+.home-garden-text{
+    font-size: 30px;
+    line-height: 39px;
+    font-family: "Advent Pro", sans-serif;
+    color: #222222;
+    margin: 0px;
+    font-weight: 600;
+}
+.body-text {
+    font-size: 16px;
+    line-height: 170%;
+    color: #3d5b7d;
+    font-weight: 400;
+    font-family: "Titillium Web", sans-serif;
+    margin-top: 20px;
 }
 
     
