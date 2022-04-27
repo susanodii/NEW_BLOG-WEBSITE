@@ -35,6 +35,18 @@ body {
 /* TOP NAVIGATION */
 body {
   font-family: 'Advent Pro', sans-serif;
+  /* display: flex;
+  flex-direction: column;
+   justify-content: center; 
+  align-items: center; */
+  
+
+}
+.custon-circle{
+  border: 5px solid #007aea;;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
 
 }
 .home-nav {
@@ -78,6 +90,49 @@ body {
   /* margin: 10px; */
 }
 
+
+/* =====================UPPER CARD SECTION STYLES ================================================ */
+.upper-class-section{
+
+  display: flex;
+  justify-content: space-around;
+  gap: 70px;
+
+}
+
+
+.upper-card-wraper{
+
+  background-image: url(' https://html.themesdeveloper.net/newlog/assets/img/hero-bg1.png ');
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 70vw;
+  margin-bottom: 4em;
+  border-radius: 15px;
+  position: relative;
+  
+  
+  
+}
+
+.individual-cards-box{
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 5px solid red; */
+  
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+  flex-wrap: wrap;
+  width: 32vw;
+  height: 75vh;
+  position: absolute;
+  right: 3em;
+  bottom: 2em;
+  top: 8em;
+  ;
+}
+
 .featured-topic-wrapper {
   display: flex;
   justify-content: space-between;
@@ -87,8 +142,80 @@ body {
   margin: auto;
   text-align: center;
 }
+.stock-features{
+  font-family:Advent Pro ;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.5;
+  text-align: left;
 
 }
+.stockFeatures-inner-card{
+  border: 5px solid white;
+  background-color: white;
+   color: #3d5b7d;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   border-radius: 15px;
+   height: 32vh;
+margin-top: 40px;
+}
+.stockFeatures-inner-writeUp{
+  line-height: 170%;
+  color: #3d5b7d;
+  font-weight: 400;
+  font-family: "Titillium Web", sans-seri
+
+
+}
+
+.upperCard-button{
+  
+  width: 75px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
+  color: white;
+}
+
+.stockFeatures-inner-container{
+  /* border: 3px solid seagreen; */
+  width: 27vw;
+  height: 30vh;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.upper-card-dateTime{
+  display: flex;
+  justify-content: space-between;
+}
+
+.upper-card-dateTimeWrapper{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+/* svg.bi.bi-arrow-right{
+  width: 60px;
+  border: 2px solid red;
+  font-size: 16px;
+} */
+
+/* ============== HEARDER SECTION===============================*/
 .home-logo {
   display: flex;
   justify-content: center;
@@ -210,7 +337,7 @@ body {
     
     gap: 0px;
     line-height: 0.5; 
-     border: 5px solid purple; 
+     /* border: 5px solid purple;  */
 }
 
 .news-brief {
@@ -855,6 +982,7 @@ a.homeGarden-writeUP {
   margin-top: 25px;
   border-radius: 15px;
   height: 55vh;
+
   width: 19vw;
   background-image: url('https://html.themesdeveloper.net/newlog/assets/img/blog/sidebar-add-banner.png ');
   background-position: center;
