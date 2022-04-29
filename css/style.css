@@ -49,6 +49,15 @@ body {
   border-radius: 50%;
 
 }
+
+.custom-horizontal-line{
+  border: 5px solid linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%) ;
+  width: 90px;
+  height: 5px;
+  background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
+  border-radius: 15px;
+
+}
 .home-nav {
   display: flex;
   justify-content: space-between;
@@ -95,7 +104,7 @@ body {
 .upper-class-section{
 
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   gap: 70px;
 
 }
@@ -266,7 +275,7 @@ margin-top: 40px;
 
 /* CARDS UNDER FATURED TOPICS */
 .cards-wrapper {
-  /* border: 10px solid blue; */
+   /* border: 10px solid blue;  */
   width: 80vw;
   margin: auto;
   text-align: center;
@@ -420,23 +429,70 @@ svg.bi.bi-arrow-right-circle {
 .bi.bi-arrow-right-circle {
   color: #007aea;
 }
-/* a.arrow{
-    background: #4679BD;
-    text-decoration:none; /* Remove that ugly underlining */
-/* border-radius: 50%;
-    display: block;
-    height: 80px;
-    width: 80px;
-    
-} */
-/* a.arrow::after {
-    content:"\2191";   /* The code for the arrow : see the reference */
-/* display: block;
-    color: white;
-    font-weight: bold;
-    /* font-size: 60px; /* Adjust for your needs */
-/* text-align: center;
-}  */
+
+/*================================  FURNITURE SEECTION   ======================================= */
+.home-furniture-section{
+  background-image: url(' https://html.themesdeveloper.net/newlog/assets/img/add-campaign-1.png');
+  /* border: 5px solid yellow; */
+  width: 80vw;
+  height: 27vh;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  margin-top: 10em;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+.home-furniture-mainWrapper{
+  /* border: 5px solid greenyellow; */
+  width: 55vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.home-furniture-box1{
+  /* border: 5px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  
+}
+
+.horizontaLine-button-wrapper{
+  /* border: 5px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+
+}
+.home-funiture-header{
+  font-size: 2rem;
+  width: 10vw;
+  text-align: justify;
+  font-family:'Advent Pro', sans-serif; ;
+}
+
+.home-furniture-box2{
+  /* border: 5px solid purple; */
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   gap: 1.5em; 
+
+
+}
+.homeFuniture-hearderExplanation-wrapper{
+  width: 20vw;
+}
+
 
 /* Utitlity classes definition */
 
