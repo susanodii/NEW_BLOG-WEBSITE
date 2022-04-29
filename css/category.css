@@ -308,8 +308,13 @@ a{
     margin: 0px;
     font-weight: 600;
 }
+
 .home-garden-body-text {
     font-size: 1.05em;
+
+/* .body-text {
+    font-size: 2em; */
+
     line-height: 170%;
     color: #3d5b7d;
     font-weight: 400;
