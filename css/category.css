@@ -263,7 +263,7 @@ a{
 .categories-btn{
     padding: 0px 15px;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 14px;
     font-family: "Titillium Web", sans-serif;
     color: #3d5b7d;
     border: 1px solid #dae6f9;
@@ -300,21 +300,114 @@ a{
 .home-garden-card{
     padding: 50px 30px;
 }
-.home-garden-text{
-    font-size: 30px;
+.home-garden-title{
+    font-size: 35px;
     line-height: 39px;
     font-family: "Advent Pro", sans-serif;
     color: #222222;
     margin: 0px;
     font-weight: 600;
 }
-.body-text {
-    font-size: 2em;
+.home-garden-body-text {
+    font-size: 1.05em;
     line-height: 170%;
     color: #3d5b7d;
     font-weight: 400;
     font-family: "Titillium Web", sans-serif;
     margin-top: 20px;
+}
+.garden-btn{
+    margin-top: 5em;
+}
+.cheveron-btn-right{
+    
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Titillium Web", sans-serif;
+    background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
+    color: white;
+    border: none;
+}
+.home-garden-btn{
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+}
+.section-title p{
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 170%;
+    color: #3d5b7d;
+    font-weight: 400;
+    font-family: "Titillium Web", sans-serif;
+}
+.social-media-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2em;
+}
+.social-icon{
+    background: #fff;
+    font-size: 20px;
+    min-width: 70px;
+    min-height: 70px;
+    border: 1px solid #dae6f9;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 70px;
+}
+.social-link-icon{
+    color: #177ef7;
+}
+.popular-post-card{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 1em;
+}
+.popular-post-img{
+    background-image: url('https://html.themesdeveloper.net/newlog/assets/img/blog/recent-post-sm1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    border-radius: 10px;
+    min-width: 80px;
+    min-height: 70px;
+}
+.second-img{
+    background-image: url('https://html.themesdeveloper.net/newlog/assets/img/blog/recent-post-sm2.png');
+}
+.third-img{
+    background-image: url('	https://html.themesdeveloper.net/newlog/assets/img/blog/recent-post-sm3.png');
+}
+.popular-post-text-link{
+    font-size: 20px;
+    font-weight: 600;
+    color: #222222;
+    font-family: "Advent Pro", sans-serif;
+    line-height: 26px;
+}
+.post-tag-items{
+    margin-top: 5px;
+}
+.post-tag-date{
+    font-size: 14px;
+    color: #3d5b7d;
+    font-weight: 400;
+}
+.post-tag-items svg{
+    font-size: 12px;
+    color: #3d5b7d;
+    font-weight: 400;
+} 
+.post-svg-text{
+    font-size: 16px;
+    color: #3d5b7d;
+    font-weight: 400;
 }
 
     
