@@ -13,13 +13,15 @@ ul{
 a{
     text-decoration: none;
 }
-
+main{
+    overflow-x: hidden;
+}
 .head{
     display: flex;
     justify-content: space-between;
     margin-top: 2em;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 2em;
 }
 .logo-name h4{
@@ -39,7 +41,7 @@ a{
 /* //Container-wrapper */
 .container-wrapper{
     display: flex;
-    gap: 80px;
+    gap: 70px;
     width: 100%;
     margin-top: 1.5em;
 }
@@ -56,10 +58,22 @@ a{
     
 }
 .main-img{
-    height: 400px;
+    background-image: url('https://html.themesdeveloper.net/newlog/assets/img/post-list/post1.png');
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
     width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    min-height: 500px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.img-2{
+    background-image: url('https://html.themesdeveloper.net/newlog/assets/img/post-list/post2.png');
+}
+.img-3{
+    background-image: url('https://html.themesdeveloper.net/newlog/assets/img/post-list/post3.png');
 }
 .image-content-wrapper{
     margin: 1.5em;
@@ -84,18 +98,6 @@ a{
     list-style: none;
 }
   
-/* .main-img-list li::before { */
-    /* content: "\2022";  */
-    /* display: inline-block;
-    color: blue;
-    font-size: 30px;
-} */
-/* .main-img-list li::before {
-    content: "\2022"; 
-    display: inline-block;
-    color: blue;
-    font-size: 30px;
-} */
 .text-button{
     display: flex;
     gap: 10px;
@@ -211,7 +213,7 @@ a{
 /* Section-side */
 .section-side{
     width: 25%;
-    margin-right: 1.5em;
+    padding-right: 1.5em;
 }
 .search-wrapper{
     max-width: 100%;
@@ -268,7 +270,16 @@ a{
     color: #777;
 }
 .side-image{
+    width: 100%;
+    background-image: url("https://html.themesdeveloper.net/newlog/assets/img/recent-post/thumb1.png");
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 10px;
+}
+.side-img-2{
+    background-image: url("https://html.themesdeveloper.net/newlog/assets/img/recent-post/thumb2.png");
 }
 .side-img-text h5{
     font-size: 20px;
@@ -446,3 +457,55 @@ a{
     margin-top: 8px;
 }
     
+
+/* screen sizes */
+@media screen and (max-width: 992px){
+    .container-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .section-main{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 0em;
+    }
+    .section-side{
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .advertisement{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .empty-advert{
+        display: none;
+    }
+    .main-advert{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        margin-top: 3em;
+        margin-bottom: 3.5em;
+    }
+    
+}
+@media screen and (max-width: 767px){
+    .content-text h1 {
+        font-size: 35px;
+        font-weight: 500;
+        
+    }
+}
+@media screen and (max-width: 575px){
+    .main-img{
+        min-height: 300px;
+    }
+    
+}
