@@ -439,7 +439,7 @@ svg.bi.bi-arrow-right-circle {
   margin: auto;
   text-align: center;
   display: flex;
-  margin-top: 10em;
+  margin-top: 7em;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -476,7 +476,7 @@ svg.bi.bi-arrow-right-circle {
   font-size: 2rem;
   width: 10vw;
   text-align: justify;
-  font-family:'Advent Pro', sans-serif; ;
+  font-family:'Advent Pro', sans-serif; 
 }
 
 .home-furniture-box2{
@@ -492,6 +492,207 @@ svg.bi.bi-arrow-right-circle {
 .homeFuniture-hearderExplanation-wrapper{
   width: 20vw;
 }
+
+
+/* TRENDING TOPICS */
+.trending-topics{
+/* border: 5px solid red; */
+  width: 80vw;
+  height: 10vh;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  margin-top: 5em;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.trending-topics-header{
+  font-size: 3em;
+  font-weight: 700;
+  font-family:'Advent Pro', sans-serif;
+
+}
+
+
+/* TRENDING TOPICS CARDS */
+
+.trendingTopics-card-wrapper{
+  /* border: 5px solid blue;  */
+  width: 100%;
+  margin-top: 1em;
+  margin: auto;
+  margin-right: 3em;
+  padding-right: 1em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2em;
+  
+}
+
+.treandingTopics-biggestCard-box1{
+   /* border: 5px solid yellow;  */
+  width: 38%;
+  height: 80vh;
+  display: flex;
+  background-image: url('https://html.themesdeveloper.net/newlog/assets/img/blog/trending-post1.png');
+  background-repeat: no-repeat;
+background-size: cover;
+  /* justify-content: center; */
+  border-radius: 20px;
+
+}
+.trendingTopics-biggestCard-mainBox1{
+   /* border: 5px solid blueviolet;  */
+width:34vw ;
+height: 70vh;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+
+/* align-items: center; */
+gap: 3em;
+
+
+}
+.tredingTopic-headerButon1{
+  /* border: 5px solid yellowgreen;  */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  width: 34vw;
+  color: white;
+  /* margin-bottom: 2em; */
+
+}
+
+.trending-topics-headerCard1 {
+  font-size: 3em;
+  font-weight: 700;
+  font-family:'Advent Pro', sans-serif;
+  line-height: 1;
+  /* color: white; */
+}
+.trendintTopic-name{
+  color: white;
+}
+.tredingTopic-headerButon2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2em;
+}
+a.arrow-trend {
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+}
+
+.arrow-trend {
+  border: 2px solid rgb(233, 229, 229);
+  background-color: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+a:hover.arrow-trend{
+  color: white;
+  background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
+
+
+}
+
+/* trending topic-box2 */
+.treandingTopics-biggestCard-box2{
+  /* border: 5px solid yellow;  */
+  width: 32%;
+  height: 80vh;
+  display: flex;
+  background-image: url('https://html.themesdeveloper.net/newlog/assets/img/blog/trending-post2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+background-size: cover;
+border-radius: 20px;
+}
+
+.trendingTopics-biggestCard-mainBox2{
+  /* border: 5px solid pink;  */
+width:27vw ;
+height: 70vh;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+
+/* align-items: center; */
+gap: 0em;
+
+
+}
+
+
+.tredingTopic-headerButonSecond{
+  /* border: 5px solid yellowgreen;  */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+flex-wrap: wrap;
+  gap: 1em;
+  width: 25vw;
+  color: white;
+  margin: auto;
+  height: 23vw;
+  
+  /* margin-bottom: 2em; */
+
+}
+
+
+/* third box */
+.treandingTopics-biggestCard-box3{
+  /* border: 5px solid yellow;  */
+  width: 23%;
+  height: 80vh;
+  display: flex;
+  background-image: url('https://html.themesdeveloper.net/newlog/assets/img/blog/trending-post1.png');
+  background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+  /* justify-content: center; */
+  border-radius: 20px;
+
+
+}
+
+
+.tredingTopic-headerButon3{
+  /* border: 5px solid yellowgreen;  */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  width: 15vw;
+  color: white;
+  line-height: 2;
+  /* margin-bottom: 2em; */
+
+}
+
 
 
 /* Utitlity classes definition */
@@ -510,6 +711,25 @@ a {
   background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
   border-radius: 10px;
 }
+.arrow-trending-card {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #177ef7;
+  border: 5px solid whitesmoke;
+  /* background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%); */
+}
+
+
+
+
+
+
 
 /* end Utility classes definition */
 
