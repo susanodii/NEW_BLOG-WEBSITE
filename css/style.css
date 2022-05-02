@@ -275,7 +275,7 @@ margin-top: 40px;
 
 /* CARDS UNDER FATURED TOPICS */
 .cards-wrapper {
-   /* border: 10px solid blue;  */
+    /* border: 10px solid blue;   */
   width: 80vw;
   margin: auto;
   text-align: center;
@@ -547,7 +547,7 @@ background-size: cover;
 
 }
 .trendingTopics-biggestCard-mainBox1{
-   /* border: 5px solid blueviolet;  */
+  /* border: 5px solid  blueviolet;   */
 width:34vw ;
 height: 70vh;
 margin: auto;
@@ -694,40 +694,178 @@ background-position: center;
 }
 
 
+.trendingTopics-biggestCard-mainBox3{
+  /* border: 5px solid  blueviolet;   */
+width:18vw ;
+height: 70vh;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
 
-/* Utitlity classes definition */
+/* align-items: center; */
+gap: 3em;
 
-li {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: var(--primary-text-color);
+
 }
 
-.gradient-bar {
-  width: 100%;
-  height: 10px;
-  background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
-  border-radius: 10px;
+
+/* MOST DICUSSED TOPICS CARDS */
+
+.mostDiscused-card-wrapper {
+  /* border: 10px solid blue;   */
+width: 80vw;
+margin: auto;
+/* text-align: center; */
+display: flex;
+ flex-direction: column;  
+justify-content: space-between;
+flex-wrap: wrap;
+margin-top: 20px;
+height: 35vw;
+gap: 4em;
+
 }
-.arrow-trending-card {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  font-size: 20px;
-  font-weight: 600;
+
+
+
+
+
+
+.mostDiscussed-image-innerCard{
+  /* border: 5px solid black; */
+  height: 75vh;
+  width: 70%;
+  background-image: url(' https://html.themesdeveloper.net/newlog/assets/img/blog/discussed-post-bg.png');
+background-repeat: no-repeat;
+background-size: cover;
+position: relative; 
+/* display: flex;
+flex-direction: column;
+/* justify-content: space-around; */
+
+} 
+
+
+/* .stockFeatures-inner-card1{
+  border: 5px solid red;
+  
+width: 37vw;
+height: 30vh;
+border-radius: 5px;
+position: absolute;
+bottom: 2em;
+left: 2em;
+
+
+} */
+
+.stockFeatures-inner-container1{
+
+ border: 5px solid white;
+   color: #3d5b7d;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   border-radius: 15px;
+   height: 30vh;
+   width: 35vw;
+/* margin-top: 40px; */
+
+position: absolute;  
+bottom: 2em;
+left: 2em;
+background-color: white;
+
+
+}
+
+
+.mostDiscussed-innerInner-container{
+  /* border: 5px solid #00c2ff; */
+  height: 21vh;
+  width: 25vw;
+  margin-left: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+
+
+}
+.mostDiscussed-inner-writeUp{
+  font-size: 30px;
+  line-height: 39px;
+  font-family: "Advent Pro", sans-serif;
+  color: #222222;
+ 
+}
+
+/* MOST DISCUSSED SIDEBAR */
+
+.most-discussedSocialMedia-Writeup{
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.mostDiscussed-garden-wrapper{
+
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.social-media-links{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.links{
+  height: 70px;
+  width: 70px;
+  border: 3px solid whitesmoke;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #177ef7;
-  border: 5px solid whitesmoke;
-  /* background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%); */
+  border-radius: 50%;
+  color: #007aea;
+}
+a.links:hover{
+  color: white;
+  background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
+}
+
+.social-small-writeUp{
+  color: #3d5b7d;
+}
+
+/* RECENT NEWLOG CARD */
+.recentVlog-card-wrapper {
+  border: 5px solid blue;   
+width: 80vw;
+margin: auto;
 }
 
 
+.recentNewLog-left-bar{
+  border: 2px solid red;
+  width: 18vw;
+}
 
-
+.recentvlog-img{
+  width: 18vw;
+margin: auto;
+border-radius: 10px;
+}
 
 
 
