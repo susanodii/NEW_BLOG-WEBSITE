@@ -851,21 +851,271 @@ a.links:hover{
 /* RECENT NEWLOG CARD */
 .recentVlog-card-wrapper {
   border: 5px solid blue;   
-width: 80vw;
-margin: auto;
+width: 100%;
+/* margin: auto; */
+display: flex;
+gap: 3em;
+/* padding-left: 10em;
+padding-right: 10em;  */
+
 }
 
 
-.recentNewLog-left-bar{
-  border: 2px solid red;
-  width: 18vw;
-}
+/* .recentNewLog-left-bar{ */
+  /* border: 2px solid red; */
+  /* width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 2em;
+} */
+.food-img-wrapper{
+  /* border: 3px solid brown; */
+  display: flex;
+  gap: 2em;
 
+}
+/* .horizontal-line3{
+  border: 5px solid linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%) ;
+  width: 20vw;
+  height: 15px;
+  background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
+  border-radius: 15px;
+
+} */
 .recentvlog-img{
-  width: 18vw;
+  width: 20vw;
 margin: auto;
 border-radius: 10px;
 }
+.food-img-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.recentVlog-card-dateTimeWrapper{
+  display: flex;
+  font-size: 18px;
+  gap: 1em;
+  /* border: 2px solid yellowgreen; */
+  align-items: center;
+}
+.thirthen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animated-cartoon-header{
+  font-size: 1em;
+    line-height: 26px;
+    width: 20vw;
+    font-family: "Advent Pro", sans-serif;
+}
+
+.last-of-it{
+  /* border: 3px solid seagreen; */
+  height: 50vh;
+  border-radius: 15px;
+  background-image: url('https://html.themesdeveloper.net/newlog/assets/img/recent-post/add-banner2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button4-jewelry-iwo{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1em;
+  /* border: 3px solid blue; */
+}
+.button-jellof{
+   /* border: 3px solid greenyellow;  */
+  width: 18vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  /* margin: auto; */
+   justify-content: space-between;
+   
+  
+}
+.upperCard-button4{
+ 
+  width: 75px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  background: white;
+  color: black;
+
+}
+.recentNewLog-explaination-roundButton{
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+justify-content: flex-start;
+gap: 2em;
+}
+
+
+.name-header{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 57px;
+  font-family: "Advent Pro", sans-serif;
+  color: #222222;
+  text-transform: capitalize;
+}
+
+
+
+/* .second-card-recentNewblog{ */
+  /* border: 3px solid red; */
+  /* height: 45vw; */
+  /* width: 80%; */
+  /* display: flex; */
+  /* gap: 2em; */
+
+
+/* .second-card-recentNewblog1{
+  border: 3px solid yellow;
+  width: 55vw;
+}
+.second-innerCard-recentNewblog1{
+  border: 2px solid rgb(247, 14, 14);
+height: 55%;
+
+}
+.second-innerInnerCard-recentNewblog1{
+  border: 3px solid rgb(15, 12, 12);
+  height: 55%;
+  border-radius: 15px;
+  background-image: url(' https://html.themesdeveloper.net/newlog/assets/img/recent-post/thumb3.png');
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  position: relative; 
+} */
+/* .mostDiscussedBlog-card-dateTimeWrapper{
+margin-top: 1em;
+margin-left: 2em;
+display: flex;
+align-items: center;
+gap: 1em;
+font-size: 18px;
+border:3px solid rgb(15, 12, 12); 
+color:rgb(119, 119, 119) ;
+
+} */
+.hair-man{
+  border-radius: 50%;
+}
+/* .mostDiscussedCard-button{
+  
+  width: 75px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  background: linear-gradient(91.85deg, #007aea 0%, #00c2ff 100%);
+  color: white;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+
+} */
+/* .second-card-recentNewblog2{
+  border: 3px solid yellow;
+  width: 56vw;
+} */
+
+
+
+
+
+.rightSide-recent-wrapper{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  border: 5px solid yellowgreen;
+}
+
+.section1-box{
+  width: 50%;
+  /* border: 5px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.section2-box{
+  width: 50%;
+  /* border: 5px solid purple; */
+  display: flex;
+  justify-content: center;
+}
+
+.img-career-wrapper{
+  background-image: url('https://html.themesdeveloper.net/newlog/assets/img/recent-post/thumb3.png ');
+   width: 100%;
+    min-height: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+
+}
+
+.mostDiscussedBlog-card-dateTimeWrapper{
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+  align-items: center;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.degital-transformation-exp{
+  font-size: 24px;
+    line-height: 31px;
+    font-weight: 600;
+    font-family: "Advent Pro", sans-serif;
+    color: #000;
+}
+
+
+.recent-card-wrapper{
+  margin-top: 1em;
+  margin-bottom: 2em;
+  background: white;
+    -webkit-box-shadow: 0px 10px 30px rgb(61 91 125 / 15%);
+    box-shadow: 0px 10px 30px rgb(61 91 125 / 15%);
+    position: relative;
+    border-radius: 15px;
+    max-width: 460px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
