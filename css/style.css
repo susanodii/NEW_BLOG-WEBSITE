@@ -1689,7 +1689,271 @@ width:100%
 }
 }
 
+/* tablet */
 
+@media (max-width: 768px){
+
+
+  html, body {
+    overflow-x:hidden !important;
+    width: 100%;
+    } 
+   
+  .upper-card-wraper {
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin-inline: auto;
+    width: 100%;
+    margin-bottom: -100px;
+  }
+
+  .individual-cards-box{
+    width: 50%;
+right: 12rem;
+padding-bottom: 20px;
+top: 1px;
+  }
+
+  .featured-topic-wrapper{
+    width: 95%;
+  }
+  .cards-wrapper{
+    flex-direction: column;
+width: 100%;
+  }
+
+  .individual-card-container{
+    flex-direction: column;
+width: 100%;
+  }
+  .cards-background-img{
+    width: 95%;
+margin-left: auto;
+margin-right: auto;
+height: 60%;
+  }
+  .cards-main-writeUp{
+    width: 95%;
+  }
+
+  .cards-main-writeUp{
+    width: 70%;
+height: 40%;
+margin-left: auto;
+margin-right: auto;
+flex-direction: row;
+/* padding-bottom: 5em; */
+  }
+  .general{
+    width: 100%;
+margin-bottom: 3em;
+gap: 10em;
+  }
+  .horizontal-line1{
+    width: 400px;
+  }
+
+  .arrow-rightHight{
+    gap: 2em;
+  }
+  .author-date{
+    width: 100%;
+height: 80px;
+justify-content: flex-start;
+align-items: center;
+  }
+
+  .category-container{
+    width: 100%;
+  }
+
+  .horizontal-line2{
+    width: 570px;
+  }
+
+  .cat-heading{
+    width: 90%;
+  }
+  .home-garden-wrapper{
+    width: 90%;
+    /* justify-content: space-between */
+  }
+
+  .home-and-garden{
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  .second-category-containerWrapper{
+    width: 90%;
+  }
+
+  .wrapperBetween-mainWriteUpAnd-CircleArrow{
+    width: 90%;
+  }
+  .garden-home-writeUp1{
+    width: 80%;
+  }
+
+  .garden-home-details{
+    width: 90%;
+font-size: 25px;
+justify-content: right;
+text-align: left;
+  }
+
+
+  .newLetter-button-wrapper{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .newsLetter-email{
+    width: 90%;
+    margin: auto;
+  }
+
+
+  .newsLetter-container{
+    width: 90%;
+margin: auto;
+height: 100px;
+  }
+  .newsLetter-button{
+    width: 90%;
+    margin: auto;
+  }
+
+    /* Home Furniture    */
+    .home-furniture-section{
+      width: 90%;
+      margin-top: 2em;
+    }
+
+    .home-furniture-mainWrapper{
+      width: 80%;
+    }
+
+    .home-furniture-box2{
+      width: 50%;
+line-height: 1;
+padding-top: 50px;
+    }
+
+/* trending topics */
+.trendingTopics-card-wrapper{
+  flex-direction: column;
+padding: 0;
+margin: 0;
+}
+.mostDiscused-card-wrapper{
+  width: 100%;
+  flex-direction: column;
+}
+.mostDiscussed-image-innerCard{
+  width: 100%;
+  height: 100vh; 
+}
+
+.treandingTopics-biggestCard-box1{
+  width: 90%;
+margin: auto;
+}
+
+/* .trendingTopics-biggestCard-mainBox1{
+  width: 90%;
+} */
+.treandingTopics-biggestCard-box2{
+  width: 90%;
+margin: auto;
+}
+.trendingTopics-biggestCard-mainBox2{
+  width: 90%;
+justify-content: flex-start;
+align-items: flex-start;
+height: 100%;
+}
+.treandingTopics-biggestCard-box3{
+  width: 90%;
+margin: auto;
+}
+
+.tredingTopic-headerButonSecond{
+  flex-direction: row;
+justify-content: flex-start;
+}
+.tredingTopic-headerButon2{
+  width: 90%;
+justify-content: flex-end;
+align-items: center;
+}
+/* most discussed */
+.mostDiscused-card-wrapper{
+  display: none;
+}
+/* trending topic */
+.trending-topics-header{
+  font-size: 30px
+}
+.recentVlog-card-wrapper{
+  flex-direction: column;
+  width: 100%;
+  padding: 0%;
+}
+.horizontal-line3{
+  width: 90%;
+  margin: auto;
+}
+.recentvlog-img{
+  width: 90%;
+  margin: auto;
+}
+.recentVlog-card-dateTimeWrapper{
+  width: 90%;
+  margin: auto;
+}
+.animated-cartoon-header{
+  width: 90%;
+  margin: auto;
+}
+.last-of-it{
+  width: 90%;
+  margin: auto;
+}
+
+.button-jellof{
+  width: 50%;
+}
+
+
+/* RIGHT HAND SECTION */
+.rightSide-recent-wrapper{
+  flex-direction: column;
+  padding: 0%;
+  width: 100%;
+  gap: 1em;
+}
+.section1-box{
+  width: 100%;
+  margin: auto;
+}
+.recent-card-wrapper{
+  width: 90%;
+  margin: auto;
+  max-width: 90%;
+}
+.section2-box{
+  width: 100%;
+  margin: auto;
+}
+.career-section-wrapper{
+  display: flex;
+flex-direction: column;
+gap: 1em;
+}
+
+}
 
 /* end Utility classes definition */
 
