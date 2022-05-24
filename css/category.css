@@ -502,7 +502,61 @@ main{
         font-weight: 500;
         
     }
+    .general{
+        width: 95%;
+flex-direction: column;
+    }
+
+    /* .cards-wrapper{
+        flex-direction: row;
+    } */
+    .cards-background-img{
+        width: 50%;
+    }
+    .individual-card-container{
+        flex-direction: column;
+width: 100%;
+    }
+    .cards-background-img{
+        width: 95%;
+margin: auto;
+height: 60%;
+    }
+
+    .cards-main-writeUp{
+        width: 95%;
+margin: auto;
+    }
+
+    .horizontal-line1{
+        width: 400px;
+    }
+    .cards-main-writeUp{
+        width: 45%;
+    }
+    .cards-wrapper{
+        flex-direction: column;
+width: 95%;
+margin: auto;
+    }
+    .arrow-rightHight{
+        gap: 8em;
+width: 95%;
+margin: auto;
+padding-top: 1em
+    }
+    .author-date{
+        width: 95%;
+        align-items: center;
+        /* justify-content: center; */
+    }
+
 }
+
+
+
+
+
 @media screen and (max-width: 575px){
     .main-img{
         min-height: 300px;

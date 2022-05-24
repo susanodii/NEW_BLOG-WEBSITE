@@ -1232,6 +1232,222 @@ a.links:hover {
 
 
 /* tablet */
+@media screen and (max-width: 992px){
+  /* UPPER CARD SECTION */
+  .upper-class-section{
+    width: 100%;
+
+  }
+  .cards-wrapper{
+    width: 100%;
+    flex-direction: column;
+  }
+  .individual-card-container{
+    flex-direction: column;
+
+width: 100%;
+margin: auto;
+  }
+  .cards-background-img{
+    width: 96%;
+    margin: auto;
+    height: 50%;
+  }
+  .author-date{
+    width: 95%;
+    border: none;
+    margin: auto;
+  }
+  
+
+  .cards-main-writeUp{
+    width: 96%;
+margin: auto;
+height: 50%;
+  }
+
+  .horizontal-line1{
+width: 500px;
+}
+
+.arrow-rightHight{
+  gap: 8em;
+width: 96%;
+margin: auto;
+}
+
+/* category section */
+.category-container{
+width:100%;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
+.cat-heading{
+  width: 96%;
+margin: auto;
+}
+.home-garden-wrapper{
+  width: 96%;
+margin: auto;
+}
+.home-and-garden{
+  width: 80%;
+
+justify-content: space-between
+}
+
+.horizontal-line2{
+  width: 700px;
+  margin-left: auto;
+margin-left: auto;
+}
+
+.second-category-containerWrapper{
+
+  width: 96%;
+margin: auto;
+}
+
+/* news letter section */
+.newLetter-button-wrapper{
+  width: 100%;
+}
+
+.newsLetter-button{
+  width: 96%;
+margin: auto;
+}
+
+.newsLetter-email{
+  width: 96%;
+margin: auto;
+}
+.newsLetter-container{
+  width: 96%;
+  margin: auto;
+}
+.home-furniture-section{
+  width: 96%;
+}
+
+/* trending topic */
+.trendingTopics-card-wrapper{
+
+  flex-direction: column;
+margin: 0;
+padding: 0;
+}
+
+.treandingTopics-biggestCard-box2{
+  width: 96%;
+margin: auto
+}
+
+.treandingTopics-biggestCard-box3{
+
+  
+    width: 96%;
+    margin: auto;
+}
+.treandingTopics-biggestCard-box1{
+  width: 96%;
+  margin: auto;
+}
+
+/* most discussed topic*/
+.mostDiscused-card-wrapper{
+  width: 100%;
+flex-direction: column;
+height: 100%;
+gap: 5px;
+}
+
+.mostDiscussed-image-innerCard{
+  width: 96%;
+margin: auto;
+}
+/* upper card parts */
+  .upper-card-wraper{
+
+    width: 95%;
+    margin-bottom: -5em;
+  }
+  .individual-cards-box{
+width: 50%;
+top: 4em;
+  }
+
+  .featured-topic-wrapper{
+    width: 95%;
+font-size: 30px;
+  }
+  .featured-topic-viewAll{
+    font-size: 30px;
+  }
+
+  .mostDiscussed-garden-wrapper{
+    width: 100%;
+flex-direction: row;
+justify-content: space-between;
+  }
+
+  /* FETURED TOPIC */
+  .cards-wrapper{
+    width: 100%;
+  }
+
+
+  /* recent vlog section */
+
+  .recentVlog-card-wrapper{
+    
+      flex-direction: column;
+      width: 100%;
+  padding: 0;
+}
+.horizontal-line3{
+  display: none;
+}
+.food-img-wrapper{
+  width: 100%;
+}
+
+.recentvlog-img{
+  width: 96%;
+  margin: auto;
+}
+.animated-cartoon-header{
+  width: 90%;
+  margin: auto;
+}
+.last-of-it{
+  width: 96%;
+  margin:auto ;
+}
+.recentVlog-card-dateTimeWrapper{
+  width: 90%;
+  margin: auto;
+}
+.rightSide-recent-wrapper{
+  width: 100%;
+  flex-direction: column;
+}
+.section1-box{
+  width: 100%;
+}
+.recent-card-wrapper{
+  width: 100%;
+  max-width: 100%;
+}
+
+.img-career-wrapper{
+  width: 100%;
+}
+.section2-box{
+  width: 100%;
+}
+}
 
 @media screen and (max-width: 768px){
 
@@ -1253,7 +1469,7 @@ a.links:hover {
     width: 50%;
 /* right: 12rem; */
 padding-bottom: 20px;
-/* margin-bottom: 20em; */
+margin-bottom: 20em;
 /* top: 1px; */
   }
 
